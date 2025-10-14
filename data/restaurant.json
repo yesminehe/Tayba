@@ -1,0 +1,87 @@
+{
+  "restaurant": {
+    "name": "SHAMWICH",
+    "slogan": "Découvrez la Différence",
+    "description": "Découvrez des saveurs uniques et des ingrédients de qualité supérieure. Notre cuisine allie tradition et modernité pour votre plus grand plaisir.",
+    "type": "FAST-FOOD GOURMAND",
+    "logo": "assets/images/logo.png",
+
+    "socialMedia": [
+      {
+        "platform": "Instagram",
+        "url": "https://www.instagram.com/shamwich_monthey/"
+      },
+      {
+        "platform": "Facebook",
+        "url": "https://www.facebook.com/profile.php?id=61568448869699"
+      }
+    ],
+    "menu": {
+      "categories": [
+        {
+          "name": "Shawarma & Tacos",
+          "items": [
+            {
+              "name": "Shawarma Poulet",
+              "description": "Pain libanais, viande de poulet marinée, frites, salade, sauce blanche",
+              "price": "35.00 CHF"
+            },
+            {
+              "name": "French Tacos Poulet",
+              "description": "Galette, viande de poulet, frites, fromage fondu, sauce au choix",
+              "price": "40.00 CHF"
+            },
+            {
+              "name": "Shawarma Mixte",
+              "description": "Pain libanais, mélange de viandes, frites, salade, sauce à l'ail",
+              "price": "40.00 CHF"
+            },
+            {
+              "name": "French Tacos Mixte",
+              "description": "Galette, mélange de viandes, frites, fromage fondu, sauce au choix",
+              "price": "45.00 CHF"
+            }
+          ]
+        },
+        {
+          "name": "Burgers & Plus",
+          "items": [
+            {
+              "name": "Smash Burger Classique",
+              "description": "Pain brioché, steak haché, cheddar, oignons caramélisés, sauce maison",
+              "price": "45.00 CHF"
+            },
+            {
+              "name": "Smash Burger Spécial",
+              "description": "Pain brioché, double steak, bacon, cheddar, oignons frits, sauce spéciale",
+              "price": "50.00 CHF"
+            },
+            {
+              "name": "Menu Enfant",
+              "description": "Mini burger, frites, boisson et surprise",
+              "price": "25.00 CHF"
+            },
+            {
+              "name": "Frites Maison",
+              "description": "Frites coupées à la main, sel de mer, sauce au choix",
+              "price": "8.00 CHF"
+            },
+            {
+              "name": "Boisson 50cl",
+              "description": "Au choix : Coca-Cola, Fanta, Sprite, Ice Tea, Eau minérale",
+              "price": "5.50 CHF"
+            }
+          ]
+        }
+      ]
+    },
+    "contact": {
+      "address": "Avenue de la gare 13, Monthey, Suisse",
+      "phone": "+(41) 024 525 10 07",
+      "email": "contact@shamwich.com",
+      "openingHours": {
+        "weekdays": "Lundi - Dimanche: 9h00 - 22h00"
+      }
+    }
+  }
+}
