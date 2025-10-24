@@ -114,17 +114,25 @@ $restaurant = json_decode($jsonData, true)['restaurant'];
 
         <h2 class="section-title">Notre Menu</h2>
         <div class="menu-container">
-            <?php foreach ($restaurant['menu']['categories'] as $category): ?>
+            <?php
+            // Diviser les catégories en deux colonnes
+            $categories = $restaurant['menu']['categories'];
+            $categoriesChunks = array_chunk($categories, ceil(count($categories) / 2));
+
+            foreach ($categoriesChunks as $columnCategories):
+            ?>
                 <div class="menu-column">
-                    <h2 class="column-title"><?php echo htmlspecialchars($category['name']); ?></h2>
-                    <?php foreach ($category['items'] as $item): ?>
-                        <div class="menu-item">
-                            <div class="item-header">
-                                <h3><?php echo htmlspecialchars($item['name']); ?></h3>
-                                <span class="price"><?php echo htmlspecialchars($item['price']); ?></span>
+                    <?php foreach ($columnCategories as $category): ?>
+                        <h2 class="column-title"><?php echo htmlspecialchars($category['name']); ?></h2>
+                        <?php foreach ($category['items'] as $item): ?>
+                            <div class="menu-item">
+                                <div class="item-header">
+                                    <h3><?php echo htmlspecialchars($item['name']); ?></h3>
+                                    <span class="price"><?php echo htmlspecialchars($item['price']); ?></span>
+                                </div>
+                                <p><?php echo htmlspecialchars($item['description']); ?></p>
                             </div>
-                            <p><?php echo htmlspecialchars($item['description']); ?></p>
-                        </div>
+                        <?php endforeach; ?>
                     <?php endforeach; ?>
                 </div>
             <?php endforeach; ?>

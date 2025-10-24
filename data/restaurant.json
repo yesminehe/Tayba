@@ -19,57 +19,152 @@
     "menu": {
       "categories": [
         {
-          "name": "Shawarma & Tacos",
+          "name": "SHAWARMA",
           "items": [
             {
-              "name": "Shawarma Poulet",
-              "description": "Pain libanais, viande de poulet marinée, frites, salade, sauce blanche",
-              "price": "35.00 CHF"
+              "name": "Sandwich Shawarma",
+              "description": "Pain libanais, viande ou poulet, cornichon, sauce à l'ail sauce au sésame (tahini), persil, oignon, sumac",
+              "price": "12.00 CHF"
             },
             {
-              "name": "French Tacos Poulet",
-              "description": "Galette, viande de poulet, frites, fromage fondu, sauce au choix",
-              "price": "40.00 CHF"
-            },
-            {
-              "name": "Shawarma Mixte",
-              "description": "Pain libanais, mélange de viandes, frites, salade, sauce à l'ail",
-              "price": "40.00 CHF"
-            },
-            {
-              "name": "French Tacos Mixte",
-              "description": "Galette, mélange de viandes, frites, fromage fondu, sauce au choix",
-              "price": "45.00 CHF"
+              "name": "Assiette Shawarma",
+              "description": "Viande ou poulet shawarma, frites, cornichon, sauce à l'ail, sauce au sésame (tahini), tomate, concombre",
+              "price": "21.00 CHF"
             }
           ]
         },
         {
-          "name": "Burgers & Plus",
+          "name": "VÉGÉTARIEN",
           "items": [
             {
-              "name": "Smash Burger Classique",
-              "description": "Pain brioché, steak haché, cheddar, oignons caramélisés, sauce maison",
-              "price": "45.00 CHF"
+              "name": "Sandwich Falafel",
+              "description": "Pain libanais, falafel, tomate, concombre, sauce au sésame (tahini)",
+              "price": "12.00 CHF"
             },
             {
-              "name": "Smash Burger Spécial",
-              "description": "Pain brioché, double steak, bacon, cheddar, oignons frits, sauce spéciale",
-              "price": "50.00 CHF"
+              "name": "Assiette Végétarien",
+              "description": "Falafel, babaganouge, feuilles de vigne, tomate, concombre, sauce au sésame (tahini)",
+              "price": "21.00 CHF"
+            }
+          ]
+        },
+        {
+          "name": "SMASH BURGER",
+          "items": [
+            {
+              "name": "Smash Classique",
+              "description": "Potato bun, 2x bœuf suisse, 2x cheddar, oignons frits, ketchup, moutarde",
+              "price": "13.90 CHF - Avec frites et canette(17.90 CHF)"
             },
+            {
+              "name": "Smash Spicy",
+              "description": "Potato bun, 2x bœuf suisse,2x cheddar, oignons frits, jalapeños, salade, tomate, sauce spicy",
+              "price": "14.90 CHF - Avec frites et canette(18.90 CHF)"
+            },
+            {
+              "name": "Smash Spécial",
+              "description": "Potato bun, 2x bœuf suisse, 2x cheddar, oignons smashé, sauce béarnaise",
+              "price": "14.90 CHF Avec frites et canette(18.90 CHF)"
+            },
+            {
+              "name": "Chiki Burger",
+              "description": "Potato bun, tenders, salade, mayonnaise, oignons frits",
+              "price": "14.90 CHF Avec frites et canette(18.90 CHF)"
+            }
+          ]
+        },
+        {
+          "name": "FRENCH TACOS",
+          "items": [
+            {
+              "name": "French Libanais",
+              "description": "Viande shawarma, sauce fromagère, frites, sauce à l'ail, cornichon",
+              "price": "12.00 CHF"
+            },
+            {
+              "name": "French Valaisan",
+              "description": "Tenders, bacon, sauce fromagère, raclette",
+              "price": "12.00 CHF"
+            },
+            {
+              "name": "French Burger",
+              "description": "Viande hachée, frites, sauce fromagère, cornichon, cheddar",
+              "price": "12.00 CHF"
+            },
+            {
+              "name": "French Chèvre miel",
+              "description": "Tenders, sauce formagère, frites, chèvre, miel",
+              "price": "12.00 CHF"
+            },
+            {
+              "name": "French Oriental",
+              "description": "Merguez, sauce fromagère, sauce algérienne, cheddar",
+              "price": "12.00 CHF"
+            },
+            {
+              "name": "French Crispy",
+              "description": "Cordon bleu, nuggets, sauce fromagère, frites, cheddar, sauce au choix",
+              "price": "12.00 CHF"
+            },
+            {
+              "name": "French Tacos",
+              "description": "1 viande au choix",
+              "price": "10.00 CHF"
+            },
+            {
+              "name": "French Tacos",
+              "description": "2 viandes au choix",
+              "price": "13.00 CHF"
+            },
+            {
+              "name": "Bowl Tacos",
+              "description": "1 viande au choix, frites, sauce fromagère",
+              "price": "13.00 CHF"
+            },
+            {
+              "name": "Bowl Tacos",
+              "description": "2 viandes au choix, frites, sauce fromagère",
+              "price": "14.00 CHF"
+            }
+          ]
+        },
+        {
+          "name": "MENUS SPÉCIAUX",
+          "items": [
             {
               "name": "Menu Enfant",
-              "description": "Mini burger, frites, boisson et surprise",
-              "price": "25.00 CHF"
+              "description": "Tenders ou nuggets avec frites et jus Cupri-Sun",
+              "price": "10.00 CHF"
             },
             {
-              "name": "Frites Maison",
-              "description": "Frites coupées à la main, sel de mer, sauce au choix",
-              "price": "8.00 CHF"
+              "name": "Menu Étudiant",
+              "description": "Plat au choix avec frites et 1 boisson",
+              "price": "14.90 CHF"
+            }
+          ]
+        },
+        {
+          "name": "BOISSONS & ACCOMPAGNEMENTS",
+          "items": [
+            {
+              "name": "Canette 33cl au choix",
+              "description": "",
+              "price": "3.00 CHF"
             },
             {
-              "name": "Boisson 50cl",
-              "description": "Au choix : Coca-Cola, Fanta, Sprite, Ice Tea, Eau minérale",
-              "price": "5.50 CHF"
+              "name": "Bouteille 50cl au choix",
+              "description": "",
+              "price": "4.00 CHF"
+            },
+            {
+              "name": "Portion de frites",
+              "description": "",
+              "price": "5.00 CHF"
+            },
+            {
+              "name": "Desserts",
+              "description": "",
+              "price": "6.90 CHF"
             }
           ]
         }
