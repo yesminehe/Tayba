@@ -35,7 +35,7 @@ try {
         throw new Exception(implode("\n", $errors));
     }
 
-    $to = "contact@fastriom.com";
+    $to = "hasnimelik@hotmail.com";
     $subject = "Nouveau message de $name - Formulaire de contact";
     $headers = "From: $name <$email>\r\n" .
                "Reply-To: $email\r\n" .

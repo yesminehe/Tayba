@@ -1,10 +1,10 @@
 {
   "restaurant": {
-    "name": "SHAMWICH",
-    "slogan": "Découvrez la Différence",
-    "description": "Découvrez des saveurs uniques et des ingrédients de qualité supérieure. Notre cuisine allie tradition et modernité pour votre plus grand plaisir.",
-    "type": "FAST-FOOD GOURMAND",
-    "logo": "assets/images/logo.png",
+    "name": "TAYBA FOOD",
+    "slogan": "Le Goût qui Rassemble",
+    "description": "Spécialisée dans l'authentique cuisine syrienne. Plats faits maison préparés avec des ingrédients frais, chaque jour. Venez savourer l’authentique.",
+    "type": "CUISINE SYRIENNE • MARTIGNY",
+    "logo": "assets/images/logotayba.png",
 
     "socialMedia": [
       {
@@ -19,163 +19,81 @@
     "menu": {
       "categories": [
         {
-          "name": "SHAWARMA",
+          "name": "PLATS",
+          "subtitle": "TOUS LES PLATS SONT SERVIS AVEC UN ACCOMPAGNEMENT AU CHOIX (RIZ | FRITES | SALADE)",
           "items": [
             {
-              "name": "Sandwich Shawarma",
-              "description": "Pain libanais, viande ou poulet, cornichon, sauce à l'ail sauce au sésame (tahini), persil, oignon, sumac",
-              "price": "12.00 CHF"
+              "name": "Poulet Rôti",
+              "description": "Servi avec riz, frites ou salade au choix<br>• 1/4 Poulet — 14.90 CHF<br>• 1/2 Poulet — 19.90 CHF<br>• Poulet Entier — 34.90 CHF",
+              "price": "Dès 14.90 CHF"
             },
             {
-              "name": "Assiette Shawarma",
-              "description": "Viande ou poulet shawarma, frites, cornichon, sauce à l'ail, sauce au sésame (tahini), tomate, concombre",
-              "price": "21.00 CHF"
+              "name": "Menu Shawarma Poulet",
+              "description": "Assiette shawarma poulet émincé avec son accompagnement et sauces maison",
+              "price": "19.90 CHF"
+            },
+            {
+              "name": "Menu Shawarma Viande",
+              "description": "Assiette shawarma viande émincée avec son accompagnement et sauces maison",
+              "price": "21.90 CHF"
+            },
+            {
+              "name": "Menu Végétarien: Falafel",
+              "description": "Assiette de falafels croustillants servis avec houmous, accompagnement et salade",
+              "price": "17.00 CHF"
             }
           ]
         },
         {
-          "name": "VÉGÉTARIEN",
+          "name": "SANDWICHS",
+          "subtitle": "NOS SANDWICHS PARFUMÉS ET SAVOUREUX",
           "items": [
             {
-              "name": "Sandwich Falafel",
-              "description": "Pain libanais, falafel, tomate, concombre, sauce au sésame (tahini)",
+              "name": "Shawarma Poulet",
+              "description": "Pain libanais garni de shawarma poulet mariné, sauces maison et condiments",
               "price": "12.00 CHF"
             },
             {
-              "name": "Assiette Végétarien",
-              "description": "Falafel, babaganouge, feuilles de vigne, tomate, concombre, sauce au sésame (tahini)",
-              "price": "21.00 CHF"
-            }
-          ]
-        },
-        {
-          "name": "SMASH BURGER",
-          "items": [
-            {
-              "name": "Smash Classique",
-              "description": "Potato bun, 2x bœuf suisse, 2x cheddar, oignons frits, ketchup, moutarde",
-              "price": "13.90 CHF - Avec frites et canette(17.90 CHF)"
+              "name": "Shawarma Viande",
+              "description": "Pain libanais garni de shawarma viande tendre, oignons, sumac et sauce tahini",
+              "price": "13.90 CHF"
             },
             {
-              "name": "Smash Spicy",
-              "description": "Potato bun, 2x bœuf suisse,2x cheddar, oignons frits, jalapeños, salade, tomate, sauce spicy",
-              "price": "14.90 CHF - Avec frites et canette(18.90 CHF)"
-            },
-            {
-              "name": "Smash Spécial",
-              "description": "Potato bun, 2x bœuf suisse, 2x cheddar, oignons smashé, sauce béarnaise",
-              "price": "14.90 CHF Avec frites et canette(18.90 CHF)"
-            },
-            {
-              "name": "Chiki Burger",
-              "description": "Potato bun, tenders, salade, mayonnaise, oignons frits",
-              "price": "14.90 CHF Avec frites et canette(18.90 CHF)"
-            }
-          ]
-        },
-        {
-          "name": "FRENCH TACOS",
-          "items": [
-            {
-              "name": "French Libanais",
-              "description": "Viande shawarma, sauce fromagère, frites, sauce à l'ail, cornichon",
+              "name": "Crispy Chicken",
+              "description": "Poulet croustillant avec salade, tomate et sauce gourmande",
               "price": "12.00 CHF"
             },
             {
-              "name": "French Valaisan",
-              "description": "Tenders, bacon, sauce fromagère, raclette",
+              "name": "Merguez",
+              "description": "Sandwich savoureux aux merguez grillées épicées à souhait",
               "price": "12.00 CHF"
             },
             {
-              "name": "French Burger",
-              "description": "Viande hachée, frites, sauce fromagère, cornichon, cheddar",
-              "price": "12.00 CHF"
-            },
-            {
-              "name": "French Chèvre miel",
-              "description": "Tenders, sauce formagère, frites, chèvre, miel",
-              "price": "12.00 CHF"
-            },
-            {
-              "name": "French Oriental",
-              "description": "Merguez, sauce fromagère, sauce algérienne, cheddar",
-              "price": "12.00 CHF"
-            },
-            {
-              "name": "French Crispy",
-              "description": "Cordon bleu, nuggets, sauce fromagère, frites, cheddar, sauce au choix",
-              "price": "12.00 CHF"
-            },
-            {
-              "name": "French Tacos",
-              "description": "1 viande au choix",
+              "name": "Arayes Viande",
+              "description": "Pain grillé farci à la viande de bœuf hachée assaisonnée",
               "price": "10.00 CHF"
             },
             {
-              "name": "French Tacos",
-              "description": "2 viandes au choix",
-              "price": "13.00 CHF"
+              "name": "Tushka",
+              "description": "Pain libanais grillé farci à la viande hachée assaisonnée et fromage fondu",
+              "price": "12.00 CHF"
             },
             {
-              "name": "Bowl Tacos",
-              "description": "1 viande au choix, frites, sauce fromagère",
-              "price": "13.00 CHF"
-            },
-            {
-              "name": "Bowl Tacos",
-              "description": "2 viandes au choix, frites, sauce fromagère",
-              "price": "14.00 CHF"
-            }
-          ]
-        },
-        {
-          "name": "MENUS SPÉCIAUX",
-          "items": [
-            {
-              "name": "Menu Enfant",
-              "description": "Tenders ou nuggets avec frites et jus Cupri-Sun",
+              "name": "Falafel Végé",
+              "description": "Sandwich végétarien aux boulettes de falafel maison et crudités fraîches",
               "price": "10.00 CHF"
-            },
-            {
-              "name": "Menu Étudiant",
-              "description": "Plat au choix avec frites et 1 boisson",
-              "price": "14.90 CHF"
-            }
-          ]
-        },
-        {
-          "name": "BOISSONS & ACCOMPAGNEMENTS",
-          "items": [
-            {
-              "name": "Canette 33cl au choix",
-              "description": "",
-              "price": "3.00 CHF"
-            },
-            {
-              "name": "Bouteille 50cl au choix",
-              "description": "",
-              "price": "4.00 CHF"
-            },
-            {
-              "name": "Portion de frites",
-              "description": "",
-              "price": "5.00 CHF"
-            },
-            {
-              "name": "Desserts",
-              "description": "",
-              "price": "6.90 CHF"
             }
           ]
         }
       ]
     },
     "contact": {
-      "address": "Avenue de la gare 13, Monthey, Suisse",
-      "phone": "+(41) 024 525 10 07",
-      "email": "contact@shamwich.com",
-      "openingHours": {
-        "weekdays": "Lundi - Dimanche: 9h00 - 22h00"
+      "address": "Rue de Collège 6, 1920 Martigny - Suisse",
+      "phone": "####",
+      "email": "hasnimelik@hotmail.com",
+      "hours": {
+        "weekdays": "11:30 - 22:30",
+        "weekend": "11:30 - 23:00"
       }
     }
   }

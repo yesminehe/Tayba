@@ -61,3 +61,35 @@ document.querySelectorAll(".gallery-item").forEach((item, index) => {
   item.style.transition = `all 0.6s ease ${index * 0.1}s`;
   observer.observe(item);
 });
+
+// Hero Parallax Scroll Effect
+window.addEventListener('scroll', function() {
+  const hero = document.querySelector('.hero');
+  const heroContent = document.querySelector('.hero-content');
+  const tomato = document.querySelector('.tomato');
+  const onion = document.querySelector('.onion');
+  const scrollPosition = window.scrollY;
+  
+  if (heroContent) {
+    const translateY = -scrollPosition * 0.5;
+    heroContent.style.transform = `translateY(${translateY}px)`;
+    heroContent.style.opacity = 1 - (scrollPosition / 500);
+  }
+  
+  if (hero) {
+    const scale = 1 + (scrollPosition * 0.001);
+    hero.style.backgroundSize = `${100 * scale}% auto`;
+    const opacity = 0.7 + (scrollPosition * 0.001);
+    hero.style.setProperty('--overlay-opacity', Math.min(opacity, 0.9));
+  }
+  
+  if (tomato) {
+    const tomatoMove = scrollPosition * 0.2;
+    tomato.style.transform = `translateY(${tomatoMove}px)`;
+  }
+  
+  if (onion) {
+    const onionMove = scrollPosition * 0.1; 
+    onion.style.transform = `translateY(${onionMove}px)`;
+  }
+});
