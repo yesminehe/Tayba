@@ -1,6 +1,14 @@
 <?php
 $jsonData = file_get_contents('data/restaurant.json');
-$restaurant = json_decode($jsonData, true)['restaurant'];
+$data = json_decode($jsonData, true);
+$restaurant = $data['restaurant'] ?? [
+    'name' => $data['restaurant_name'] ?? 'TAYBA FOOD',
+    'logo' => 'assets/images/logotayba.png',
+    'type' => 'Restaurant Syrien',
+    'slogan' => 'L\'Art de la Cuisine Syrienne',
+    'description' => 'Découvrez l\'authenticité de nos shawarmas traditionnels, nos tushkas grillés et nos savoureux poulets rôtis.',
+    'menu' => $data['menu'] ?? ['categories' => []]
+];
 ?>
 <!DOCTYPE html>
 <html lang="fr">
@@ -20,8 +28,7 @@ $restaurant = json_decode($jsonData, true)['restaurant'];
   <nav id="navbar">
     <div class="nav-container">
       <div class="logo">
-        <img src="<?php echo htmlspecialchars($restaurant['logo']); ?>"
-          alt="Logo <?php echo htmlspecialchars($restaurant['name']); ?>">
+         <img src="assets/images/logotayba.png" alt="Logo TAYBA FOOD">
       </div>
       <ul class="nav-links" id="navLinks">
         <li><a href="#about">Notre Histoire</a></li>
@@ -177,30 +184,28 @@ $restaurant = json_decode($jsonData, true)['restaurant'];
           <div class="contact-item-icon"><i class="fas fa-map-marker-alt"></i></div>
           <div>
             <h3>Adresse</h3>
-            <p><?php echo nl2br(htmlspecialchars($restaurant['contact']['address'])); ?></p>
+            <p>Rue de Collège 6<br>1920 Martigny - Suisse</p>
           </div>
         </div>
-        <?php if (!empty($restaurant['contact']['phone']) && $restaurant['contact']['phone'] !== '####'): ?>
         <div class="contact-item">
           <div class="contact-item-icon"><i class="fas fa-phone"></i></div>
           <div>
             <h3>Téléphone</h3>
-            <p><?php echo htmlspecialchars($restaurant['contact']['phone']); ?></p>
+            <p>+41 79 881 41 73</p>
           </div>
         </div>
-        <?php endif; ?>
         <div class="contact-item">
           <div class="contact-item-icon"><i class="fas fa-envelope"></i></div>
           <div>
             <h3>Email</h3>
-            <p><?php echo htmlspecialchars($restaurant['contact']['email']); ?></p>
+            <p>hasnimelik@hotmail.com</p>
           </div>
         </div>
         <div class="contact-item">
           <div class="contact-item-icon"><i class="fas fa-clock"></i></div>
           <div>
             <h3>Horaires</h3>
-            <p><?php echo htmlspecialchars($restaurant['contact']['openingHours']['weekdays']); ?></p>
+            <p>Lun - Sam: 09h00 - 23h00<br>Dim: 09h00 - 22h00</p>
           </div>
         </div>
       </div>
@@ -228,7 +233,7 @@ $restaurant = json_decode($jsonData, true)['restaurant'];
   <footer class="site-footer">
     <div class="footer-content">
       <div class="footer-logo">
-        <img src="assets/images/logo.png" alt="Logo TAYBA FOOD">
+        <img src="assets/images/logotayba.png" alt="Logo TAYBA FOOD">
       </div>
       <div class="footer-links">
         <ul>
@@ -242,7 +247,7 @@ $restaurant = json_decode($jsonData, true)['restaurant'];
 
     </div>
     <div class="footer-bottom">
-      <p>&copy; 2025 TAYBA FOOD. Tous droits réservés.</p>
+      <p>&copy; 2026 TAYBA FOOD. Tous droits réservés.</p>
     </div>
   </footer>
 

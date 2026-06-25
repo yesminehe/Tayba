@@ -1,100 +1,49 @@
 {
-  "restaurant": {
-    "name": "TAYBA FOOD",
-    "slogan": "Le Goût qui Rassemble",
-    "description": "Spécialisée dans l'authentique cuisine syrienne. Plats faits maison préparés avec des ingrédients frais, chaque jour. Venez savourer l’authentique.",
-    "type": "CUISINE SYRIENNE • MARTIGNY",
-    "logo": "assets/images/logotayba.png",
-
-    "socialMedia": [
-      {
-        "platform": "Instagram",
-        "url": "https://www.instagram.com/shamwich_monthey/"
-      },
-      {
-        "platform": "Facebook",
-        "url": "https://www.facebook.com/profile.php?id=61568448869699"
-      }
-    ],
+    "vendor_id": "HMQSItSWIM1V48BNMiLy",
+    "restaurant_id": "iST59Ao3nAn00M4kvxC1",
+    "restaurant_name": "webhook test",
+    "updated_at": "2026-06-25T15:04:54.342Z",
     "menu": {
-      "categories": [
-        {
-          "name": "PLATS",
-          "subtitle": "TOUS LES PLATS SONT SERVIS AVEC UN ACCOMPAGNEMENT AU CHOIX (RIZ | FRITES | SALADE)",
-          "items": [
+        "categories": [
             {
-              "name": "Poulet Rôti",
-              "description": "Servi avec riz, frites ou salade au choix<br>• 1/4 Poulet — 14.90 CHF<br>• 1/2 Poulet — 19.90 CHF<br>• Poulet Entier — 34.90 CHF",
-              "price": "Dès 14.90 CHF"
-            },
-            {
-              "name": "Menu Shawarma Poulet",
-              "description": "Assiette shawarma poulet émincé avec son accompagnement et sauces maison",
-              "price": "19.90 CHF"
-            },
-            {
-              "name": "Menu Shawarma Viande",
-              "description": "Assiette shawarma viande émincée avec son accompagnement et sauces maison",
-              "price": "21.90 CHF"
-            },
-            {
-              "name": "Menu Végétarien: Falafel",
-              "description": "Assiette de falafels croustillants servis avec houmous, accompagnement et salade",
-              "price": "17.00 CHF"
+                "id": "11_0_0",
+                "name": "Seafood",
+                "description": null,
+                "image": null,
+                "displayOrder": 0,
+                "active": true,
+                "items": [
+                    {
+                        "id": "Laq3Ct9UJ69hUrE42B9C",
+                        "name": "Pasta",
+                        "description": "test",
+                        "price": 30,
+                        "imageUrl": "https://firebasestorage.googleapis.com/v0/b/eshop-dev-1e4aa.firebasestorage.app/o/restaurant_menu_items%2FTN%2FiST59Ao3nAn00M4kvxC1%2F1782399871201.jpg?alt=media&token=a1569686-176a-4886-aa6d-29e555f645f1",
+                        "available": true,
+                        "tags": [],
+                        "options": [],
+                        "nutritionalInfo": null,
+                        "updatedAt": null
+                    },
+                    {
+                        "id": "mMHCjrxmWbkEClvTgcAY",
+                        "name": "shawarmaa",
+                        "description": "test",
+                        "price": 30,
+                        "imageUrl": "https://firebasestorage.googleapis.com/v0/b/eshop-dev-1e4aa.firebasestorage.app/o/restaurant_menu_items%2FTN%2FiST59Ao3nAn00M4kvxC1%2F1782391430204.jpg?alt=media&token=b2948c51-045d-45d7-bf4d-da682bbf5a94",
+                        "available": true,
+                        "tags": [],
+                        "options": [],
+                        "nutritionalInfo": null,
+                        "updatedAt": "2026-06-25T15:00:13.394Z"
+                    }
+                ]
             }
-          ]
-        },
-        {
-          "name": "SANDWICHS",
-          "subtitle": "NOS SANDWICHS PARFUMÉS ET SAVOUREUX",
-          "items": [
-            {
-              "name": "Shawarma Poulet",
-              "description": "Pain libanais garni de shawarma poulet mariné, sauces maison et condiments",
-              "price": "12.00 CHF"
-            },
-            {
-              "name": "Shawarma Viande",
-              "description": "Pain libanais garni de shawarma viande tendre, oignons, sumac et sauce tahini",
-              "price": "13.90 CHF"
-            },
-            {
-              "name": "Crispy Chicken",
-              "description": "Poulet croustillant avec salade, tomate et sauce gourmande",
-              "price": "12.00 CHF"
-            },
-            {
-              "name": "Merguez",
-              "description": "Sandwich savoureux aux merguez grillées épicées à souhait",
-              "price": "12.00 CHF"
-            },
-            {
-              "name": "Arayes Viande",
-              "description": "Pain grillé farci à la viande de bœuf hachée assaisonnée",
-              "price": "10.00 CHF"
-            },
-            {
-              "name": "Tushka",
-              "description": "Pain libanais grillé farci à la viande hachée assaisonnée et fromage fondu",
-              "price": "12.00 CHF"
-            },
-            {
-              "name": "Falafel Végé",
-              "description": "Sandwich végétarien aux boulettes de falafel maison et crudités fraîches",
-              "price": "10.00 CHF"
-            }
-          ]
-        }
-      ]
+        ]
     },
-    "contact": {
-      "address": "Rue de Collège 6, 1920 Martigny - Suisse",
-      "phone": "####",
-      "email": "hasnimelik@hotmail.com",
-      "hours": {
-        "weekdays": "11:30 - 22:30",
-        "weekend": "11:30 - 23:00"
-      }
+    "_webhook_meta": {
+        "updated_at": "2026-06-25T15:04:54.342Z",
+        "version": 1,
+        "tenant_id": "TN"
     }
-  }
 }

@@ -1,0 +1,4 @@
+# Deny direct browser access to all files in this directory.
+# The data/ folder contains machine-generated JSON and must not be
+# publicly browsable or downloadable. PHP reads it server-side only.
+Require all denied
