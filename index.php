@@ -77,7 +77,7 @@ $restaurant = $data['restaurant'] ?? [
         <p>Scannez le QR code, choisissez vos plats et recevez votre commande directement à table — rapide, simple et
           sans friction.</p>
         <div class="qr-code">
-          <img src="assets/images/qr-code.png" alt="QR Code Fastriom">
+          <img src="assets/images/qr.png" alt="QR Code Fastriom">
           <div class="qr-code-text">
             <span>SCANNER ICI</span>
             <span class="qr-code-sub">Commander via Fastriom</span>
