@@ -1,49 +1,205 @@
 {
     "vendor_id": "HMQSItSWIM1V48BNMiLy",
     "restaurant_id": "iST59Ao3nAn00M4kvxC1",
-    "restaurant_name": "webhook test",
-    "updated_at": "2026-06-25T15:04:54.342Z",
+    "restaurant_name": "Tayba Food",
+    "updated_at": "2026-11-17T17:45:00.000Z",
     "menu": {
         "categories": [
             {
-                "id": "11_0_0",
-                "name": "Seafood",
+                "id": "cat_burgers",
+                "name": "Burgers",
                 "description": null,
                 "image": null,
                 "displayOrder": 0,
                 "active": true,
                 "items": [
                     {
-                        "id": "Laq3Ct9UJ69hUrE42B9C",
-                        "name": "Pasta",
-                        "description": "test",
-                        "price": 30,
-                        "imageUrl": "https://firebasestorage.googleapis.com/v0/b/eshop-dev-1e4aa.firebasestorage.app/o/restaurant_menu_items%2FTN%2FiST59Ao3nAn00M4kvxC1%2F1782399871201.jpg?alt=media&token=a1569686-176a-4886-aa6d-29e555f645f1",
-                        "available": true,
-                        "tags": [],
-                        "options": [],
-                        "nutritionalInfo": null,
-                        "updatedAt": null
+                        "id": "burger_1",
+                        "name": "Smach classique",
+                        "description": "1 steak smashé, 1 cheddar, salade, cornichons, sauce secrète",
+                        "price": "8 CHF",
+                        "available": true
                     },
                     {
-                        "id": "mMHCjrxmWbkEClvTgcAY",
-                        "name": "shawarmaa",
-                        "description": "test",
-                        "price": 30,
-                        "imageUrl": "https://firebasestorage.googleapis.com/v0/b/eshop-dev-1e4aa.firebasestorage.app/o/restaurant_menu_items%2FTN%2FiST59Ao3nAn00M4kvxC1%2F1782391430204.jpg?alt=media&token=b2948c51-045d-45d7-bf4d-da682bbf5a94",
-                        "available": true,
-                        "tags": [],
-                        "options": [],
-                        "nutritionalInfo": null,
-                        "updatedAt": "2026-06-25T15:00:13.394Z"
+                        "id": "burger_2",
+                        "name": "Double Smash Classic",
+                        "description": "2 steaks smashés, 2 cheddar, salade, cornichons, sauce secrète",
+                        "price": "11 CHF",
+                        "available": true
+                    },
+                    {
+                        "id": "burger_3",
+                        "name": "Crispy Chiken",
+                        "description": "Tenders de poulet croustillants ou cordon bleu, salade, cornichons, sauce secrète.",
+                        "price": "13 CHF",
+                        "available": true
+                    },
+                    {
+                        "id": "burger_4",
+                        "name": "Veggie",
+                        "description": "Steak végé, salade, cornichons, sauce secrète",
+                        "price": "13 CHF",
+                        "available": true
+                    },
+                    {
+                        "id": "burger_5",
+                        "name": "Smash Bacon",
+                        "description": "2 steaks smashés, sauce BBQ, oignons frits, bacon, cornichons, salade, cheddar",
+                        "price": "14 CHF",
+                        "available": true
+                    },
+                    {
+                        "id": "burger_6",
+                        "name": "Valaisan Smash",
+                        "description": "Double steak, raclette AOP, cornichons, oignons caramélisés, salade, sauce secrète.",
+                        "price": "14 CHF",
+                        "available": true
+                    }
+                ]
+            },
+            {
+                "id": "cat_tacos",
+                "name": "Tacos",
+                "description": null,
+                "image": null,
+                "displayOrder": 1,
+                "active": true,
+                "items": [
+                    {
+                        "id": "tacos_m",
+                        "name": "TACOS M (1 CANETTE OFFERTE)",
+                        "description": "Tacos français gourmand avec garniture au choix + 1 boisson offerte",
+                        "price": "13 CHF",
+                        "available": true
+                    },
+                    {
+                        "id": "tacos_l",
+                        "name": "TACOS L (1 CANETTE OFFERTE)",
+                        "description": "Tacos français généreux avec garniture au choix + 1 boisson offerte",
+                        "price": "15 CHF",
+                        "available": true
+                    },
+                    {
+                        "id": "tacos_xl",
+                        "name": "TACOS XL (1 CANETTE OFFERTE)",
+                        "description": "Tacos français format maxi avec garniture au choix + 1 boisson offerte",
+                        "price": "18 CHF",
+                        "available": true
+                    }
+                ]
+            },
+            {
+                "id": "cat_bowls",
+                "name": "Bowls",
+                "description": null,
+                "image": null,
+                "displayOrder": 2,
+                "active": true,
+                "items": [
+                    {
+                        "id": "bowl_m",
+                        "name": "Bowl 'M'",
+                        "description": "Bowl gourmand et équilibré format moyen",
+                        "price": "13 CHF",
+                        "available": true
+                    },
+                    {
+                        "id": "bowl_l",
+                        "name": "Bowl 'L'",
+                        "description": "Bowl gourmand et généreux grand format",
+                        "price": "15 CHF",
+                        "available": true
+                    },
+                    {
+                        "id": "bowl_tandoori",
+                        "name": "TANDOORI",
+                        "description": "Bowl aux saveurs épicées tandoori",
+                        "price": "15 CHF",
+                        "available": true
+                    },
+                    {
+                        "id": "bowl_tasty",
+                        "name": "TASTY CROUSTY",
+                        "description": "Bowl croustillant avec tenders et sauces maison",
+                        "price": "15 CHF",
+                        "available": true
+                    }
+                ]
+            },
+            {
+                "id": "cat_extra",
+                "name": "Extra / Tex-Mex",
+                "description": null,
+                "image": null,
+                "displayOrder": 3,
+                "active": true,
+                "items": [
+                    {
+                        "id": "extra_frites",
+                        "name": "Frites",
+                        "description": "Portion de frites dorées et croustillantes",
+                        "price": "4 CHF",
+                        "available": true
+                    },
+                    {
+                        "id": "extra_etudiant",
+                        "name": "MENU ÉTUDIANT",
+                        "description": "Formule étudiante avantageuse",
+                        "price": "10 CHF",
+                        "available": true
+                    },
+                    {
+                        "id": "extra_nuggets",
+                        "name": "TEX-MEX nuggets",
+                        "description": "Nuggets x6",
+                        "price": "1.5 CHF",
+                        "available": true
+                    },
+                    {
+                        "id": "extra_mozza",
+                        "name": "TEX-MEX Mozza Sticks",
+                        "description": "Mozza Sticks x6",
+                        "price": "8 CHF",
+                        "available": true
+                    },
+                    {
+                        "id": "extra_tenders",
+                        "name": "TEX-MEX tenders",
+                        "description": "Tenders x6 croustillants",
+                        "price": "10 CHF",
+                        "available": true
+                    },
+                    {
+                        "id": "extra_onion",
+                        "name": "TEX-MEX onion rings",
+                        "description": "Onion rings x6",
+                        "price": "Gratuit",
+                        "available": true
+                    }
+                ]
+            },
+            {
+                "id": "cat_desserts",
+                "name": "Desserts",
+                "description": null,
+                "image": null,
+                "displayOrder": 4,
+                "active": true,
+                "items": [
+                    {
+                        "id": "dessert_1",
+                        "name": "DESSERT DU JOUR",
+                        "description": "Douceur sucrée pour terminer votre repas",
+                        "price": "5 CHF",
+                        "available": true
                     }
                 ]
             }
         ]
     },
     "_webhook_meta": {
-        "updated_at": "2026-06-25T15:04:54.342Z",
-        "version": 1,
-        "tenant_id": "TN"
+        "updated_at": "2026-11-17T17:45:00.000Z",
+        "version": 2,
+        "tenant_id": "CH"
     }
 }

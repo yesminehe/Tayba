@@ -22,7 +22,7 @@ define('MENU_FILE_TMP', MENU_FILE . '.tmp');
  * NEVER hard-code the real secret here.
  */
 $envSecret = getenv('WEBHOOK_SECRET');
-define('WEBHOOK_SECRET', $envSecret !== false ? $envSecret : '');
+define('WEBHOOK_SECRET', $envSecret !== false ? $envSecret : 'd841c73da86552325057d9b117e4eaa1');
 
 /** Maximum accepted payload size (bytes). Prevents memory exhaustion. */
 define('MAX_PAYLOAD_BYTES', 1_048_576); // 1 MiB

@@ -2,12 +2,12 @@
 $jsonData = file_get_contents('data/restaurant.json');
 $data = json_decode($jsonData, true);
 $restaurant = $data['restaurant'] ?? [
-    'name' => $data['restaurant_name'] ?? 'TAYBA FOOD',
-    'logo' => 'assets/images/logotayba.png',
-    'type' => 'Restaurant Syrien',
-    'slogan' => 'L\'Art de la Cuisine Syrienne',
-    'description' => 'Découvrez l\'authenticité de nos shawarmas traditionnels, nos tushkas grillés et nos savoureux poulets rôtis.',
-    'menu' => $data['menu'] ?? ['categories' => []]
+  'name' => $data['restaurant_name'] ?? 'TAYBA FOOD',
+  'logo' => 'assets/images/logotayba.png',
+  'type' => 'Fast Food',
+  'slogan' => 'L\'Art du Fast Food',
+  'description' => 'Découvrez nos délicieux smash burgers, nos savoureux tacos français, nos bowls gourmands et nos snacks tex-mex croustillants.',
+  'menu' => $data['menu'] ?? ['categories' => []]
 ];
 ?>
 <!DOCTYPE html>
@@ -28,7 +28,7 @@ $restaurant = $data['restaurant'] ?? [
   <nav id="navbar">
     <div class="nav-container">
       <div class="logo">
-         <img src="assets/images/logotayba.png" alt="Logo TAYBA FOOD">
+        <img src="assets/images/logotayba.png" alt="Logo TAYBA FOOD">
       </div>
       <ul class="nav-links" id="navLinks">
         <li><a href="#about">Notre Histoire</a></li>
@@ -59,10 +59,11 @@ $restaurant = $data['restaurant'] ?? [
 
   <!-- About Section -->
   <section class="about" id="about">
-    <img src="assets/images/pexels-eros-jhave-ormeno-centeno-46789059-7508167 (1).jpg" alt="Notre cuisine syrienne">
+    <img src="assets/images/about-feast.jpg" alt="Notre sélection fast food Tayba Food">
     <div class="about-content">
-      <p>L'ART DE LA CUISINE SYRIENNE</p>
-      <h2 class="section-title">Découvrez l'authenticité de nos shawarmas traditionnels, nos tushkas grillés et nos savoureux poulets rôtis.
+      <p>FAST FOOD</p>
+      <h2 class="section-title">Découvrez nos délicieux smash burgers, nos savoureux tacos français, nos bowls gourmands
+        et nos snacks tex-mex croustillants.
       </h2>
       <a href="#contact" class="btn-outline"><span>NOUS RENDRE VISITE</span></a>
     </div>
@@ -83,16 +84,20 @@ $restaurant = $data['restaurant'] ?? [
             <span class="qr-code-sub">Commander via Fastriom</span>
           </div>
         </div>
+        <a href="https://fastriom.app/qr/ZWQpfIIF82XLGOx0umVk" target="_blank" rel="noopener noreferrer"
+          class="btn-outline">
+          <i class="fas fa-utensils"></i>
+          <span>COMMANDER EN LIGNE</span>
+        </a>
       </div>
       <div class="menu-image">
-        <img src="assets/images/1x/Fichier 1-8.png" alt="Aperçu du menu">
+        <img src="assets/images/burger-valaisan-app.png" alt="Smash Burger Valaisan Tayba Food">
       </div>
     </div>
   </section>
 
   <!-- Menu Section -->
   <section id="menu" class="food-menu">
-    <img src="assets/images/shawarma.png" alt="Shawarma" class="menu-taco-image">
     <div class="food-menu-header">
       <p class="section-p">FAIT MAISON, SERVI AVEC PASSION</p>
       <h2 class="section-title">Notre Carte</h2>
@@ -126,7 +131,7 @@ $restaurant = $data['restaurant'] ?? [
 
   <!-- Bannière Spéciale -->
   <section class="special-offer">
-    <img src="assets/images/shawarma.png" alt="Shawarma maison" class="special-decoration tomato">
+    <img src="assets/images/burger-float.png" alt="Smash Burger Tayba Food" class="special-decoration tomato">
     <div class="special-offer-overlay"></div>
     <div class="special-offer-content">
       <h2>Le Goût qui <span>Marque</span></h2>
@@ -146,27 +151,25 @@ $restaurant = $data['restaurant'] ?? [
 
       <div class="gallery-row">
         <div class="gallery-item wide">
-          <img src="assets/images/pexels-yasin-onus-520099596-37290085.jpg" alt="Cuisine Syrienne Tayba Food">
-
+          <img src="assets/images/gallery-mozza.jpg" alt="Mozza Sticks Tayba Food">
         </div>
         <div class="gallery-item tall">
-          <img src="assets/images/pexels-omar-b-shokerat-3263898-18177325.jpg" alt="Spécialités Traditionnelles">
-
+          <img src="assets/images/gallery-valaisan.jpg" alt="Valaisan Smash Burger">
         </div>
         <div class="gallery-item">
-          <img src="assets/images/pexels-musato-8364505.jpg" alt="Falafels Maison">
-
+          <img src="assets/images/gallery-tacos.jpg" alt="Tacos Français Tayba Food">
         </div>
       </div>
 
       <div class="gallery-row">
         <div class="gallery-item">
-          <img src="assets/images/pexels-furkanfdemir-10821330 (1).jpg" alt="Plats Savoureux">
-
+          <img src="assets/images/gallery-smash.jpg" alt="Double Smash Classic">
+        </div>
+        <div class="gallery-item">
+          <img src="assets/images/gallery-tandoori.jpg" alt="Bowl Tandoori Tayba Food">
         </div>
         <div class="gallery-item wide">
-          <img src="assets/images/pexels-omar-b-shokerat-3263898-18177532 (1).jpg" alt="Spécialités Syriennes">
-
+          <img src="assets/images/gallery-wings.jpg" alt="Chicken Wings Tayba Food">
         </div>
       </div>
     </div>

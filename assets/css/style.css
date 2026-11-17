@@ -289,7 +289,7 @@ body {
   justify-content: center;
   text-align: center;
   overflow: hidden;
-  background: url("../images/pexels-photocekici-37229056.jpg") center/cover no-repeat;
+  background: url("../images/hero-bg.jpg") center/cover no-repeat;
 }
 
 /* Multi-layer overlay for depth */
@@ -847,7 +847,7 @@ body {
   position: relative;
   height: 65vh;
   min-height: 420px;
-  background: url("../images/pexels-valeriia-yevchinets-689609988-33443641 (1).jpg") no-repeat center center / cover;
+  background: url("../images/special-offer-bg.jpg") no-repeat center center / cover;
   background-attachment: fixed;
   display: flex;
   align-items: center;
